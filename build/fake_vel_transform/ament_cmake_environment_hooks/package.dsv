@@ -1,0 +1,4 @@
+source;share/fake_vel_transform/local_setup.bash
+source;share/fake_vel_transform/local_setup.dsv
+source;share/fake_vel_transform/local_setup.sh
+source;share/fake_vel_transform/local_setup.zsh

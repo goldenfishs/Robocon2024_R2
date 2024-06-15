@@ -1,0 +1,2 @@
+source;share/rc_decision/environment/ament_prefix_path.sh
+source;share/rc_decision/environment/path.sh

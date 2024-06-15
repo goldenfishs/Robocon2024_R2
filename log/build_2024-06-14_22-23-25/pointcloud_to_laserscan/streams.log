@@ -1,0 +1,63 @@
+[0.036s] Invoking command in '/home/robofish/Robocon2024_R2/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_perception/pointcloud_to_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/pointcloud_to_laserscan
+[1.114s] -- The C compiler identification is GNU 11.4.0
+[1.114s] -- The CXX compiler identification is GNU 11.4.0
+[1.115s] -- Detecting C compiler ABI info
+[1.115s] -- Detecting C compiler ABI info - done
+[1.115s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.115s] -- Detecting C compile features
+[1.115s] -- Detecting C compile features - done
+[1.115s] -- Detecting CXX compiler ABI info
+[1.115s] -- Detecting CXX compiler ABI info - done
+[1.115s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.115s] -- Detecting CXX compile features
+[1.115s] -- Detecting CXX compile features - done
+[1.115s] -- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.115s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.115s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.133s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.139s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.149s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.165s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.189s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.273s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.275s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.454s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.498s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.571s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.593s] -- Looking for pthread.h
+[1.694s] -- Looking for pthread.h - found
+[1.694s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.848s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.849s] -- Found Threads: TRUE  
+[3.078s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.114s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.115s] -- Configured cppcheck include dirs: /home/robofish/Robocon2024_R2/src/rm_perception/pointcloud_to_laserscan/include
+[3.115s] -- Configured cppcheck exclude dirs and/or files: 
+[3.117s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.117s] -- Configured cpplint exclude dirs and/or files: 
+[3.118s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.119s] -- Added test 'lint_cmake' to check CMake code style
+[3.119s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.121s] -- Added test 'uncrustify' to check C / C++ code style
+[3.121s] -- Configured uncrustify additional arguments: 
+[3.122s] -- Added test 'xmllint' to check XML markup files
+[3.142s] -- Configuring done
+[3.230s] -- Generating done
+[3.233s] -- Build files have been written to: /home/robofish/Robocon2024_R2/build/pointcloud_to_laserscan
+[3.273s] Invoked command in '/home/robofish/Robocon2024_R2/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_perception/pointcloud_to_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/pointcloud_to_laserscan
+[3.273s] Invoking command in '/home/robofish/Robocon2024_R2/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robofish/Robocon2024_R2/build/pointcloud_to_laserscan -- -j8 -l8
+[7.081s] [ 10%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o[0m
+[7.081s] [ 20%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o[0m
+[7.081s] [ 30%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud_node.dir/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp.o[0m
+[14.214s] [ 40%] [32m[1mLinking CXX executable laserscan_to_pointcloud_node[0m
+[14.665s] [ 40%] Built target laserscan_to_pointcloud_node
+[14.922s] [ 50%] [32m[1mLinking CXX executable pointcloud_to_laserscan_node[0m
+[15.310s] [ 50%] Built target pointcloud_to_laserscan_node
+[33.135s] [ 60%] [32m[1mLinking CXX shared library liblaserscan_to_pointcloud.so[0m
+[33.347s] [ 60%] Built target laserscan_to_pointcloud
+[33.385s] [ 70%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[47.020s] [ 80%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[47.178s] [ 80%] Built target pointcloud_to_laserscan
+[47.192s] [ 90%] [32mBuilding CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o[0m
+[51.798s] [100%] [32m[1mLinking CXX executable dummy_pointcloud_publisher[0m
+[51.916s] [100%] Built target dummy_pointcloud_publisher

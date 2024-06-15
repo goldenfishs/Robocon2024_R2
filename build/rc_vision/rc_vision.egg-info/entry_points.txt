@@ -1,0 +1,8 @@
+[console_scripts]
+pub_move_mode = rc_vision.pub_move_mode:main
+pub_move_mode2 = rc_vision.pub_move_mode2:main
+pub_quqiu = rc_vision.pub_quqiu:main
+pub_quzhao = rc_vision.pub_quzhao:main
+pub_zhaokuang = rc_vision.pub_zhaokuang:main
+sub_stop_quqiu = rc_vision.sub_stop_quqiu:main
+

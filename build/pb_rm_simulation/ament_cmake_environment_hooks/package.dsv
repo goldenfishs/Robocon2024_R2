@@ -1,0 +1,4 @@
+source;share/pb_rm_simulation/local_setup.bash
+source;share/pb_rm_simulation/local_setup.dsv
+source;share/pb_rm_simulation/local_setup.sh
+source;share/pb_rm_simulation/local_setup.zsh

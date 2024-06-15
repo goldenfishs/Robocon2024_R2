@@ -1,0 +1,1 @@
+/home/robofish/Robocon2024_R2/src/rm_simulation/pb_rm_simulation/launch/rm_simulation.launch.py

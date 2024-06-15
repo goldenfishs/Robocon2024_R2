@@ -1,0 +1,1 @@
+/home/robofish/Robocon2024_R2/build/costmap_converter_msgs/rosidl_generator_py/costmap_converter_msgs/__init__.py

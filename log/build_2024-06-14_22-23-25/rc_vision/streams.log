@@ -1,0 +1,31 @@
+[2.204s] Invoking command in '/home/robofish/Robocon2024_R2/build/rc_vision': PYTHONPATH=/home/robofish/Robocon2024_R2/build/rc_vision/prefix_override:/home/robofish/Robocon2024_R2/install/rc_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robofish/Robocon2024_R2/build/rc_vision/build --no-deps symlink_data
+[7.703s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.703s]   warnings.warn(
+[7.726s] running develop
+[7.726s] running egg_info
+[7.726s] creating rc_vision.egg-info
+[7.726s] writing rc_vision.egg-info/PKG-INFO
+[7.726s] writing dependency_links to rc_vision.egg-info/dependency_links.txt
+[7.726s] writing entry points to rc_vision.egg-info/entry_points.txt
+[7.726s] writing requirements to rc_vision.egg-info/requires.txt
+[7.726s] writing top-level names to rc_vision.egg-info/top_level.txt
+[7.726s] writing manifest file 'rc_vision.egg-info/SOURCES.txt'
+[7.726s] reading manifest file 'rc_vision.egg-info/SOURCES.txt'
+[7.726s] writing manifest file 'rc_vision.egg-info/SOURCES.txt'
+[7.726s] running build_ext
+[7.726s] Creating /home/robofish/Robocon2024_R2/install/rc_vision/lib/python3.10/site-packages/rc-vision.egg-link (link to .)
+[7.727s] Installing pub_move_mode script to /home/robofish/Robocon2024_R2/install/rc_vision/lib/rc_vision
+[7.727s] Installing pub_move_mode2 script to /home/robofish/Robocon2024_R2/install/rc_vision/lib/rc_vision
+[7.727s] Installing pub_quqiu script to /home/robofish/Robocon2024_R2/install/rc_vision/lib/rc_vision
+[7.727s] Installing pub_quzhao script to /home/robofish/Robocon2024_R2/install/rc_vision/lib/rc_vision
+[7.727s] Installing pub_zhaokuang script to /home/robofish/Robocon2024_R2/install/rc_vision/lib/rc_vision
+[7.727s] Installing sub_stop_quqiu script to /home/robofish/Robocon2024_R2/install/rc_vision/lib/rc_vision
+[7.727s] 
+[7.727s] Installed /home/robofish/Robocon2024_R2/build/rc_vision
+[7.727s] running symlink_data
+[7.727s] creating /home/robofish/Robocon2024_R2/install/rc_vision/share/ament_index
+[7.727s] creating /home/robofish/Robocon2024_R2/install/rc_vision/share/ament_index/resource_index
+[7.727s] creating /home/robofish/Robocon2024_R2/install/rc_vision/share/ament_index/resource_index/packages
+[7.727s] symbolically linking /home/robofish/Robocon2024_R2/build/rc_vision/resource/rc_vision -> /home/robofish/Robocon2024_R2/install/rc_vision/share/ament_index/resource_index/packages
+[7.727s] symbolically linking /home/robofish/Robocon2024_R2/build/rc_vision/package.xml -> /home/robofish/Robocon2024_R2/install/rc_vision/share/rc_vision
+[7.758s] Invoked command in '/home/robofish/Robocon2024_R2/build/rc_vision' returned '0': PYTHONPATH=/home/robofish/Robocon2024_R2/build/rc_vision/prefix_override:/home/robofish/Robocon2024_R2/install/rc_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robofish/Robocon2024_R2/build/rc_vision/build --no-deps symlink_data

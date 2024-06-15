@@ -1,0 +1,102 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robofish/Robocon2024_R2/build/pb_rm_simulation
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/launch/rm_simulation.launch.py
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/urdf/simulation_waking_robot.xacro
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/RMUC2024_world/meshes/RMUC_2024.stl
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/RMUC2024_world/model.config
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/RMUC2024_world/model.sdf
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/RMUL2024_world/meshes/RMUL_2024.stl
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/mid360.stl
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle1/model.config
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle1/model.sdf
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle10/model.config
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle10/model.sdf
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle11/model.config
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle11/model.sdf
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle12/model.config
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle12/model.sdf
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle2/model.config
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle2/model.sdf
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle3/model.config
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle3/model.sdf
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle4/model.config
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle4/model.sdf
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle5/model.config
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle5/model.sdf
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle6/model.config
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle6/model.sdf
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle7/model.config
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle7/model.sdf
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle8/model.config
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle8/model.sdf
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle9/model.config
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle9/model.sdf
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/CMakeLists.txt
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle1.so
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle10.so
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle11.so
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle12.so
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle2.so
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle3.so
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle4.so
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle5.so
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle6.so
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle7.so
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle8.so
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacle9.so
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/lib/libobstacles.so
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle1.cc
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle10.cc
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle11.cc
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle12.cc
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle13.cc
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle2.cc
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle3.cc
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle4.cc
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle5.cc
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle6.cc
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle7.cc
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle8.cc
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacle9.cc
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/meshes/obstacles/obstacle_plugin/obstacles.cc
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/world/RMUC2024_world/RMUC2024_world.world
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/world/RMUL2024_world/RMUL2024_world.world
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/world/RMUL2024_world/RMUL2024_world_dynamic_obstacles.world
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/world/RMUL2024_world/model.config
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/world/RMUL2024_world/model.sdf
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/rviz/rviz2.rviz
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/ament_index/resource_index/package_run_dependencies/pb_rm_simulation
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/ament_index/resource_index/parent_prefix_path/pb_rm_simulation
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/environment/ament_prefix_path.sh
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/environment/path.sh
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/environment/path.dsv
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/local_setup.bash
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/local_setup.sh
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/local_setup.zsh
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/local_setup.dsv
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/package.dsv
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/ament_index/resource_index/packages/pb_rm_simulation
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/cmake/pb_rm_simulationConfig.cmake
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/cmake/pb_rm_simulationConfig-version.cmake
+-- Symlinking: /home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/package.xml

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/robofish/Robocon2024_R2/build/imu_complementary_filter/complementary_filter_node" "TARGETS" "complementary_filter_node" "DESTINATION" "lib/imu_complementary_filter")

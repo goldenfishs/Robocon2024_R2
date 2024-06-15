@@ -1,0 +1,224 @@
+[0.040s] Invoking command in '/home/robofish/Robocon2024_R2/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_navigation/costmap_converter/costmap_converter_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/costmap_converter_msgs
+[0.161s] -- The C compiler identification is GNU 11.4.0
+[0.256s] -- The CXX compiler identification is GNU 11.4.0
+[0.267s] -- Detecting C compiler ABI info
+[0.366s] -- Detecting C compiler ABI info - done
+[0.381s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.381s] -- Detecting C compile features
+[0.382s] -- Detecting C compile features - done
+[0.391s] -- Detecting CXX compiler ABI info
+[0.506s] -- Detecting CXX compiler ABI info - done
+[0.518s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.518s] -- Detecting CXX compile features
+[0.519s] -- Detecting CXX compile features - done
+[0.522s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.782s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.893s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.932s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.972s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.978s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.002s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.020s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.042s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.063s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.186s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.560s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.203s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.448s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.470s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.472s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.498s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.499s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.499s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.499s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.522s] -- Found PythonExtra: .so  
+[2.613s] -- Configuring done
+[2.676s] -- Generating done
+[2.679s] -- Build files have been written to: /home/robofish/Robocon2024_R2/build/costmap_converter_msgs
+[2.728s] Invoked command in '/home/robofish/Robocon2024_R2/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_navigation/costmap_converter/costmap_converter_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/costmap_converter_msgs
+[2.729s] Invoking command in '/home/robofish/Robocon2024_R2/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robofish/Robocon2024_R2/build/costmap_converter_msgs -- -j8 -l8
+[2.909s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.909s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.909s] [  5%] Built target ament_cmake_python_symlink_costmap_converter_msgs
+[3.406s] running egg_info
+[3.406s] creating costmap_converter_msgs.egg-info
+[3.407s] writing costmap_converter_msgs.egg-info/PKG-INFO
+[3.407s] writing dependency_links to costmap_converter_msgs.egg-info/dependency_links.txt
+[3.407s] writing top-level names to costmap_converter_msgs.egg-info/top_level.txt
+[3.408s] writing manifest file 'costmap_converter_msgs.egg-info/SOURCES.txt'
+[3.411s] reading manifest file 'costmap_converter_msgs.egg-info/SOURCES.txt'
+[3.412s] writing manifest file 'costmap_converter_msgs.egg-info/SOURCES.txt'
+[3.438s] [  5%] Built target costmap_converter_msgs__cpp
+[3.503s] [  5%] Built target ament_cmake_python_build_costmap_converter_msgs_egg
+[3.517s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.534s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.552s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.717s] [ 15%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_generator_c.dir/rosidl_generator_c/costmap_converter_msgs/msg/detail/obstacle_msg__functions.c.o[0m
+[3.733s] [ 17%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_generator_c.dir/rosidl_generator_c/costmap_converter_msgs/msg/detail/obstacle_array_msg__functions.c.o[0m
+[4.087s] [ 20%] [32m[1mLinking C shared library libcostmap_converter_msgs__rosidl_generator_c.so[0m
+[4.357s] [ 20%] Built target costmap_converter_msgs__rosidl_generator_c
+[4.433s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.517s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.524s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.966s] [ 30%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/costmap_converter_msgs/msg/obstacle_array_msg__type_support.cpp.o[0m
+[4.966s] [ 33%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/costmap_converter_msgs/msg/obstacle_msg__type_support.cpp.o[0m
+[5.282s] [ 35%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.cpp.o[0m
+[5.343s] [ 38%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.cpp.o[0m
+[5.498s] [ 41%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/costmap_converter_msgs/msg/detail/dds_fastrtps/obstacle_msg__type_support.cpp.o[0m
+[6.104s] [ 43%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/costmap_converter_msgs/msg/detail/dds_fastrtps/obstacle_array_msg__type_support.cpp.o[0m
+[6.281s] [ 46%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/costmap_converter_msgs/msg/obstacle_msg__type_support.cpp.o[0m
+[6.552s] [ 48%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/costmap_converter_msgs/msg/obstacle_array_msg__type_support.cpp.o[0m
+[6.832s] [ 51%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_c.so[0m
+[6.932s] [ 53%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_cpp.so[0m
+[7.019s] [ 56%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.072s] [ 58%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.c.o[0m
+[7.075s] [ 61%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/costmap_converter_msgs/msg/detail/obstacle_msg__type_support_c.cpp.o[0m
+[7.121s] [ 64%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.c.o[0m
+[7.135s] [ 66%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support_c.cpp.o[0m
+[7.160s] [ 66%] Built target costmap_converter_msgs__rosidl_typesupport_c
+[7.203s] [ 66%] Built target costmap_converter_msgs__rosidl_typesupport_cpp
+[7.411s] [ 69%] [32m[1mLinking C shared library libcostmap_converter_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.585s] [ 69%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_cpp
+[7.627s] [ 69%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c
+[8.267s] [ 71%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.564s] [ 71%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp
+[8.914s] [ 74%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.167s] [ 74%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c
+[9.367s] [ 74%] Built target costmap_converter_msgs
+[9.536s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.655s] [ 76%] Built target costmap_converter_msgs__py
+[11.746s] [ 79%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_generator_py.dir/rosidl_generator_py/costmap_converter_msgs/msg/_obstacle_msg_s.c.o[0m
+[11.757s] [ 82%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_generator_py.dir/rosidl_generator_py/costmap_converter_msgs/msg/_obstacle_array_msg_s.c.o[0m
+[12.264s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/costmap_converter_msgs/libcostmap_converter_msgs__rosidl_generator_py.so[0m
+[12.554s] [ 84%] Built target costmap_converter_msgs__rosidl_generator_py
+[12.702s] [ 87%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.718s] [ 89%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[12.745s] [ 92%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.996s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.212s] [ 94%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c__pyext
+[13.392s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.423s] [100%] [32m[1mLinking C shared library rosidl_generator_py/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.592s] [100%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c__pyext
+[13.690s] [100%] Built target costmap_converter_msgs__rosidl_typesupport_c__pyext
+[13.768s] Invoked command in '/home/robofish/Robocon2024_R2/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robofish/Robocon2024_R2/build/costmap_converter_msgs -- -j8 -l8
+[14.603s] Invoking command in '/home/robofish/Robocon2024_R2/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robofish/Robocon2024_R2/build/costmap_converter_msgs
+[15.251s] -- Install configuration: ""
+[15.251s] -- Execute custom install script
+[15.251s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/ament_index/resource_index/rosidl_interfaces/costmap_converter_msgs
+[15.251s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__functions.h
+[15.251s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__struct.h
+[15.251s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.h
+[15.251s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__functions.h
+[15.251s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__struct.h
+[15.251s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.h
+[15.251s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/obstacle_array_msg.h
+[15.252s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/obstacle_msg.h
+[15.252s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/rosidl_generator_c__visibility_control.h
+[15.252s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/library_path.sh
+[15.252s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/library_path.dsv
+[15.252s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_fastrtps_c.h
+[15.252s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_fastrtps_c.h
+[15.252s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.252s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__builder.hpp
+[15.277s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__struct.hpp
+[15.328s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__traits.hpp
+[15.366s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__builder.hpp
+[15.407s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__struct.hpp
+[15.441s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__traits.hpp
+[15.496s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/obstacle_array_msg.hpp
+[15.546s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/obstacle_msg.hpp
+[15.585s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.649s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[15.676s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.713s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_introspection_c.h
+[15.756s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_introspection_c.h
+[15.803s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.858s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_introspection_cpp.hpp
+[15.920s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_introspection_cpp.hpp
+[15.960s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/pythonpath.sh
+[16.042s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/pythonpath.dsv
+[16.101s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs-0.1.2-py3.10.egg-info/PKG-INFO
+[16.155s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs-0.1.2-py3.10.egg-info/SOURCES.txt
+[16.185s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs-0.1.2-py3.10.egg-info/dependency_links.txt
+[16.228s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs-0.1.2-py3.10.egg-info/top_level.txt
+[16.271s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/__init__.py
+[16.320s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_c.c
+[16.366s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.442s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[16.465s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.513s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.548s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.576s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/libcostmap_converter_msgs__rosidl_generator_py.so
+[16.652s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/__init__.py
+[16.712s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_array_msg.py
+[16.745s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_array_msg_s.c
+[16.797s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_msg.py
+[16.855s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_msg_s.c
+[16.889s] -- Up-to-date symlink: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.889s] -- Up-to-date symlink: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.890s] -- Up-to-date symlink: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.890s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleMsg.idl
+[16.947s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleArrayMsg.idl
+[17.039s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleMsg.msg
+[17.056s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleArrayMsg.msg
+[17.102s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/ament_index/resource_index/package_run_dependencies/costmap_converter_msgs
+[17.112s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/ament_index/resource_index/parent_prefix_path/costmap_converter_msgs
+[17.190s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/ament_prefix_path.sh
+[17.210s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/ament_prefix_path.dsv
+[17.272s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/path.sh
+[17.329s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/path.dsv
+[17.359s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.bash
+[17.381s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.sh
+[17.434s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.zsh
+[17.465s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.dsv
+[17.520s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/package.dsv
+[17.580s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/ament_index/resource_index/packages/costmap_converter_msgs
+[17.636s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/rosidl_cmake-extras.cmake
+[17.683s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.733s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.784s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[17.842s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[17.893s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.937s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.953s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgsConfig.cmake
+[17.991s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgsConfig-version.cmake
+[18.044s] -- Symlinking: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/package.xml
+[18.080s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_generator_c.so
+[18.081s] -- Set runtime path of "/home/robofish/Robocon2024_R2/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_generator_c.so" to ""
+[18.081s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_c.so
+[18.081s] -- Set runtime path of "/home/robofish/Robocon2024_R2/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[18.081s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.so
+[18.081s] -- Set runtime path of "/home/robofish/Robocon2024_R2/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.081s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_c.so
+[18.081s] -- Set runtime path of "/home/robofish/Robocon2024_R2/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_c.so" to ""
+[18.081s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_c.so
+[18.081s] -- Set runtime path of "/home/robofish/Robocon2024_R2/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_c.so" to ""
+[18.081s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_cpp.so
+[18.081s] -- Set runtime path of "/home/robofish/Robocon2024_R2/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[18.082s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_cpp.so
+[18.082s] -- Set runtime path of "/home/robofish/Robocon2024_R2/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_cpp.so" to ""
+[18.195s] Listing '/home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs'...
+[18.196s] Compiling '/home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/__init__.py'...
+[18.196s] Listing '/home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg'...
+[18.196s] Compiling '/home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/__init__.py'...
+[18.196s] Compiling '/home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_array_msg.py'...
+[18.196s] Compiling '/home/robofish/Robocon2024_R2/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_msg.py'...
+[18.214s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_generator_py.so
+[18.216s] -- Set runtime path of "/home/robofish/Robocon2024_R2/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_generator_py.so" to ""
+[18.217s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_cExport.cmake
+[18.217s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_cExport-noconfig.cmake
+[18.217s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[18.218s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.218s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_cppExport.cmake
+[18.218s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.218s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.219s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cExport.cmake
+[18.219s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.219s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cExport.cmake
+[18.220s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[18.220s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[18.220s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.221s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cppExport.cmake
+[18.221s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[18.221s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_pyExport.cmake
+[18.222s] -- Installing: /home/robofish/Robocon2024_R2/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_pyExport-noconfig.cmake

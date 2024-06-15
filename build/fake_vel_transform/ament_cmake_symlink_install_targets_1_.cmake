@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/robofish/Robocon2024_R2/build/fake_vel_transform/libfake_vel_transform.so" "TARGETS" "fake_vel_transform" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

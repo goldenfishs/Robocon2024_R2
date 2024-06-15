@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/robofish/Robocon2024_R2/build/pointcloud_to_laserscan/pointcloud_to_laserscan_node" "TARGETS" "pointcloud_to_laserscan_node" "DESTINATION" "lib/pointcloud_to_laserscan")

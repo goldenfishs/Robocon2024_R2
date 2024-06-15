@@ -1,0 +1,55 @@
+[0.038s] Invoking command in '/home/robofish/Robocon2024_R2/build/fake_vel_transform': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_navigation/fake_vel_transform -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/fake_vel_transform
+[0.142s] -- The C compiler identification is GNU 11.4.0
+[0.216s] -- The CXX compiler identification is GNU 11.4.0
+[0.230s] -- Detecting C compiler ABI info
+[0.345s] -- Detecting C compiler ABI info - done
+[0.354s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.354s] -- Detecting C compile features
+[0.355s] -- Detecting C compile features - done
+[0.358s] -- Detecting CXX compiler ABI info
+[0.508s] -- Detecting CXX compiler ABI info - done
+[0.530s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.530s] -- Detecting CXX compile features
+[0.530s] -- Detecting CXX compile features - done
+[0.532s] -- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.758s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.868s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.095s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.108s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.125s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.143s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.180s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.270s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.273s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.456s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.487s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.542s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.574s] -- Looking for pthread.h
+[1.701s] -- Looking for pthread.h - found
+[1.702s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.832s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.836s] -- Found Threads: TRUE  
+[2.825s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.827s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.827s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.876s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.943s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.943s] -- Configured cppcheck include dirs: /home/robofish/Robocon2024_R2/src/rm_navigation/fake_vel_transform/include
+[2.943s] -- Configured cppcheck exclude dirs and/or files: 
+[2.943s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.943s] -- Configured cpplint exclude dirs and/or files: 
+[2.944s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.944s] -- Added test 'lint_cmake' to check CMake code style
+[2.944s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.944s] -- Added test 'xmllint' to check XML markup files
+[2.944s] -- Configuring done
+[2.948s] -- Generating done
+[2.951s] -- Build files have been written to: /home/robofish/Robocon2024_R2/build/fake_vel_transform
+[2.995s] Invoked command in '/home/robofish/Robocon2024_R2/build/fake_vel_transform' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_navigation/fake_vel_transform -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/fake_vel_transform
+[2.996s] Invoking command in '/home/robofish/Robocon2024_R2/build/fake_vel_transform': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robofish/Robocon2024_R2/build/fake_vel_transform -- -j8 -l8
+[3.267s] [ 25%] [32mBuilding CXX object CMakeFiles/fake_vel_transform_node.dir/rclcpp_components/node_main_fake_vel_transform_node.cpp.o[0m
+[3.267s] [ 50%] [32mBuilding CXX object CMakeFiles/fake_vel_transform.dir/src/fake_vel_transform.cpp.o[0m
+[15.596s] [ 75%] [32m[1mLinking CXX executable fake_vel_transform_node[0m
+[16.383s] [ 75%] Built target fake_vel_transform_node
+[30.009s] [100%] [32m[1mLinking CXX shared library libfake_vel_transform.so[0m
+[30.861s] [100%] Built target fake_vel_transform

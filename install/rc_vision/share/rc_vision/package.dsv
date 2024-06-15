@@ -1,0 +1,9 @@
+source;share/rc_vision/hook/pythonpath.ps1
+source;share/rc_vision/hook/pythonpath.dsv
+source;share/rc_vision/hook/pythonpath.sh
+source;share/rc_vision/hook/ament_prefix_path.ps1
+source;share/rc_vision/hook/ament_prefix_path.dsv
+source;share/rc_vision/hook/ament_prefix_path.sh
+source;../../build/rc_vision/share/rc_vision/hook/pythonpath_develop.ps1
+source;../../build/rc_vision/share/rc_vision/hook/pythonpath_develop.dsv
+source;../../build/rc_vision/share/rc_vision/hook/pythonpath_develop.sh

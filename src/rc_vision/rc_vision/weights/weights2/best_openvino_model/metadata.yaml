@@ -1,0 +1,16 @@
+description: Ultralytics best model trained on /kaggle/input/second-8/yolov8/ultralytics-main/ultralytics-main/ultralytics/cfg/datasets/mydata.yaml
+author: Ultralytics
+date: '2024-06-02T10:15:32.827816'
+version: 8.2.22
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: redball
+  1: blueball
+  2: purpleball

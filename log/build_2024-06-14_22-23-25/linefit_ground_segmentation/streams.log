@@ -1,0 +1,88 @@
+[0.039s] Invoking command in '/home/robofish/Robocon2024_R2/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/linefit_ground_segmentation
+[0.151s] -- The C compiler identification is GNU 11.4.0
+[0.276s] -- The CXX compiler identification is GNU 11.4.0
+[0.284s] -- Detecting C compiler ABI info
+[0.390s] -- Detecting C compiler ABI info - done
+[0.400s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.401s] -- Detecting C compile features
+[0.403s] -- Detecting C compile features - done
+[0.405s] -- Detecting CXX compiler ABI info
+[0.565s] -- Detecting CXX compiler ABI info - done
+[0.593s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.594s] -- Detecting CXX compile features
+[0.594s] -- Detecting CXX compile features - done
+[0.599s] -- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.828s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.897s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.218s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.224s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.254s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.284s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.315s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.417s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.421s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.568s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.613s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.674s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.686s] -- Looking for pthread.h
+[1.832s] -- Looking for pthread.h - found
+[1.832s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.987s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.991s] -- Found Threads: TRUE  
+[2.946s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.946s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.946s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.897s] -- Checking for module 'eigen3'
+[4.037s] --   Found eigen3, version 3.4.0
+[4.359s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[4.360s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.439s] -- Checking for module 'flann'
+[4.642s] --   Found flann, version 1.9.1
+[5.049s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[5.049s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[10.923s] -- Checking for module 'libusb-1.0'
+[11.103s] --   Found libusb-1.0, version 1.0.25
+[11.613s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[11.613s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.205s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.999s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[13.046s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[13.059s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[13.522s] -- Found Qhull version 8.0.2
+[14.300s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[14.855s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[14.866s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[14.869s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[14.877s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[14.879s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[14.880s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[14.881s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[14.881s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[14.883s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[14.885s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[14.887s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[14.888s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[14.890s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[14.891s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[14.893s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[14.895s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[14.897s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[14.898s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[14.899s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[14.901s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[14.902s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[14.902s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[14.903s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[14.905s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[14.906s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[15.140s] -- Configuring done
+[15.192s] -- Generating done
+[15.196s] -- Build files have been written to: /home/robofish/Robocon2024_R2/build/linefit_ground_segmentation
+[15.252s] Invoked command in '/home/robofish/Robocon2024_R2/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/linefit_ground_segmentation
+[15.252s] Invoking command in '/home/robofish/Robocon2024_R2/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robofish/Robocon2024_R2/build/linefit_ground_segmentation -- -j8 -l8
+[15.512s] [ 20%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/bin.cc.o[0m
+[15.512s] [ 40%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/ground_segmentation.cc.o[0m
+[15.538s] [ 60%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/segment.cc.o[0m
+[28.585s] [ 80%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/viewer.cc.o[0m
+[35.474s] [100%] [32m[1mLinking CXX shared library liblinefit_ground_segmentation.so[0m
+[36.091s] [100%] Built target linefit_ground_segmentation

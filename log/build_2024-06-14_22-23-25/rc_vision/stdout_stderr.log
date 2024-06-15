@@ -1,0 +1,29 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running develop
+running egg_info
+creating rc_vision.egg-info
+writing rc_vision.egg-info/PKG-INFO
+writing dependency_links to rc_vision.egg-info/dependency_links.txt
+writing entry points to rc_vision.egg-info/entry_points.txt
+writing requirements to rc_vision.egg-info/requires.txt
+writing top-level names to rc_vision.egg-info/top_level.txt
+writing manifest file 'rc_vision.egg-info/SOURCES.txt'
+reading manifest file 'rc_vision.egg-info/SOURCES.txt'
+writing manifest file 'rc_vision.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robofish/Robocon2024_R2/install/rc_vision/lib/python3.10/site-packages/rc-vision.egg-link (link to .)
+Installing pub_move_mode script to /home/robofish/Robocon2024_R2/install/rc_vision/lib/rc_vision
+Installing pub_move_mode2 script to /home/robofish/Robocon2024_R2/install/rc_vision/lib/rc_vision
+Installing pub_quqiu script to /home/robofish/Robocon2024_R2/install/rc_vision/lib/rc_vision
+Installing pub_quzhao script to /home/robofish/Robocon2024_R2/install/rc_vision/lib/rc_vision
+Installing pub_zhaokuang script to /home/robofish/Robocon2024_R2/install/rc_vision/lib/rc_vision
+Installing sub_stop_quqiu script to /home/robofish/Robocon2024_R2/install/rc_vision/lib/rc_vision
+
+Installed /home/robofish/Robocon2024_R2/build/rc_vision
+running symlink_data
+creating /home/robofish/Robocon2024_R2/install/rc_vision/share/ament_index
+creating /home/robofish/Robocon2024_R2/install/rc_vision/share/ament_index/resource_index
+creating /home/robofish/Robocon2024_R2/install/rc_vision/share/ament_index/resource_index/packages
+symbolically linking /home/robofish/Robocon2024_R2/build/rc_vision/resource/rc_vision -> /home/robofish/Robocon2024_R2/install/rc_vision/share/ament_index/resource_index/packages
+symbolically linking /home/robofish/Robocon2024_R2/build/rc_vision/package.xml -> /home/robofish/Robocon2024_R2/install/rc_vision/share/rc_vision

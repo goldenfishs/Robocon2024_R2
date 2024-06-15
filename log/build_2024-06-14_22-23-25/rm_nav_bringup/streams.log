@@ -1,0 +1,20 @@
+[0.064s] Invoking command in '/home/robofish/Robocon2024_R2/build/rm_nav_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_nav_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/rm_nav_bringup
+[2.932s] -- The C compiler identification is GNU 11.4.0
+[2.932s] -- The CXX compiler identification is GNU 11.4.0
+[2.932s] -- Detecting C compiler ABI info
+[2.932s] -- Detecting C compiler ABI info - done
+[2.932s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.932s] -- Detecting C compile features
+[2.932s] -- Detecting C compile features - done
+[2.933s] -- Detecting CXX compiler ABI info
+[2.933s] -- Detecting CXX compiler ABI info - done
+[2.933s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.933s] -- Detecting CXX compile features
+[2.933s] -- Detecting CXX compile features - done
+[2.933s] -- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.933s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.933s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.933s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.933s] -- Configuring done
+[2.933s] -- Generating done
+[2.933s] -- Build files have been written to: /home/robofish/Robocon2024_R2/build/rm_nav_bringup

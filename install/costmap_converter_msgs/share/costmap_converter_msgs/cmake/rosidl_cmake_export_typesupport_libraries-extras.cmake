@@ -1,0 +1,1 @@
+/home/robofish/Robocon2024_R2/build/costmap_converter_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

@@ -1,0 +1,7 @@
+[0m/usr/include/apr-1.0[0m
+[0mapr-1[0m
+[31mCMake Error at CMakeLists.txt:61 (find_library):
+  Could not find LIVOX_LIDAR_SDK_LIBRARY using the following names:
+  liblivox_lidar_sdk_shared.so, /usr/local/lib
+
+[0m

@@ -1,0 +1,748 @@
+[0.090s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.091s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79ed7414c490>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79ed74113ee0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79ed74113ee0>>)
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.214s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robofish/Robocon2024_R2'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc_decision) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc_decision) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc_decision) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc_decision) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc_decision) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc_decision) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc_decision) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc_decision) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc_decision) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rc_decision' with type 'ros.ament_cmake' and name 'rc_decision'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc_vision) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc_vision) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc_vision) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc_vision) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc_vision) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc_vision) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc_vision) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/rc_vision) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rc_vision' with type 'ros.ament_python' and name 'rc_vision'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/livox_ros_driver2) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_driver/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/serial_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/serial_driver) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/serial_driver) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/serial_driver) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/serial_driver) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/serial_driver) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/serial_driver) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/serial_driver) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_driver/serial_driver) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_driver/serial_driver' with type 'ros.ament_cmake' and name 'serial_driver'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/FAST_LIO) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/FAST_LIO) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/FAST_LIO) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/FAST_LIO) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/FAST_LIO) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/FAST_LIO) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/FAST_LIO) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/FAST_LIO) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/FAST_LIO) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_localization/FAST_LIO' with type 'ros.ament_cmake' and name 'fast_lio'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/icp_registration) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/icp_registration) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/icp_registration) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/icp_registration) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/icp_registration) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/icp_registration) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/icp_registration) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/icp_registration) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/icp_registration) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_localization/icp_registration' with type 'ros.ament_cmake' and name 'icp_registration'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/point_lio) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/point_lio) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/point_lio) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/point_lio) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/point_lio) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/point_lio) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/point_lio) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/point_lio) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_localization/point_lio) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_localization/point_lio' with type 'ros.ament_cmake' and name 'point_lio'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav_bringup) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav_bringup) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav_bringup) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav_bringup) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav_bringup) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav_bringup) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav_bringup) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_nav_bringup) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_nav_bringup' with type 'ros.ament_cmake' and name 'rm_nav_bringup'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter/costmap_converter) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter/costmap_converter) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter/costmap_converter) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter/costmap_converter) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter/costmap_converter) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter/costmap_converter) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter/costmap_converter) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter/costmap_converter) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter/costmap_converter) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_navigation/costmap_converter/costmap_converter' with type 'ros.ament_cmake' and name 'costmap_converter'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter/costmap_converter_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter/costmap_converter_msgs) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter/costmap_converter_msgs) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter/costmap_converter_msgs) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter/costmap_converter_msgs) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter/costmap_converter_msgs) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter/costmap_converter_msgs) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter/costmap_converter_msgs) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/costmap_converter/costmap_converter_msgs) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_navigation/costmap_converter/costmap_converter_msgs' with type 'ros.ament_cmake' and name 'costmap_converter_msgs'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/fake_vel_transform) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/fake_vel_transform) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/fake_vel_transform) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/fake_vel_transform) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/fake_vel_transform) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/fake_vel_transform) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/fake_vel_transform) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/fake_vel_transform) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/fake_vel_transform) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_navigation/fake_vel_transform' with type 'ros.ament_cmake' and name 'fake_vel_transform'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/rm_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/rm_navigation) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/rm_navigation) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/rm_navigation) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/rm_navigation) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/rm_navigation) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/rm_navigation) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/rm_navigation) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/rm_navigation) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_navigation/rm_navigation' with type 'ros.ament_cmake' and name 'rm_navigation'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner/teb_local_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner/teb_local_planner) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner/teb_local_planner) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner/teb_local_planner) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner/teb_local_planner) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner/teb_local_planner) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner/teb_local_planner) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner/teb_local_planner) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner/teb_local_planner) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_navigation/teb_local_planner/teb_local_planner' with type 'ros.ament_cmake' and name 'teb_local_planner'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner/teb_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner/teb_msgs) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner/teb_msgs) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner/teb_msgs) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner/teb_msgs) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner/teb_msgs) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner/teb_msgs) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner/teb_msgs) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_navigation/teb_local_planner/teb_msgs) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_navigation/teb_local_planner/teb_msgs' with type 'ros.ament_cmake' and name 'teb_msgs'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/imu_complementary_filter) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/imu_complementary_filter) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/imu_complementary_filter) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/imu_complementary_filter) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/imu_complementary_filter) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/imu_complementary_filter) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/imu_complementary_filter) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/imu_complementary_filter) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/imu_complementary_filter) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_perception/imu_complementary_filter' with type 'ros.ament_cmake' and name 'imu_complementary_filter'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/doc) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/doc) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/doc) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/doc) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/doc) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/doc) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/doc) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/doc) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/doc) by extensions ['cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/doc) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/doc) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/doc) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/doc) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation' with type 'ros.ament_cmake' and name 'linefit_ground_segmentation'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros' with type 'ros.ament_cmake' and name 'linefit_ground_segmentation_ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/pointcloud_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/pointcloud_to_laserscan) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/pointcloud_to_laserscan) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/pointcloud_to_laserscan) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/pointcloud_to_laserscan) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/pointcloud_to_laserscan) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/pointcloud_to_laserscan) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/pointcloud_to_laserscan) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_perception/pointcloud_to_laserscan) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_perception/pointcloud_to_laserscan' with type 'ros.ament_cmake' and name 'pointcloud_to_laserscan'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/livox_laser_simulation_RO2) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/livox_laser_simulation_RO2) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/livox_laser_simulation_RO2) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/livox_laser_simulation_RO2) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/livox_laser_simulation_RO2) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/livox_laser_simulation_RO2) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/livox_laser_simulation_RO2) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/livox_laser_simulation_RO2) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/livox_laser_simulation_RO2) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_simulation/livox_laser_simulation_RO2' with type 'ros.ament_cmake' and name 'ros2_livox_simulation'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/pb_rm_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/pb_rm_simulation) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/pb_rm_simulation) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/pb_rm_simulation) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/pb_rm_simulation) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/pb_rm_simulation) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/pb_rm_simulation) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/pb_rm_simulation) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_simulation/pb_rm_simulation) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_simulation/pb_rm_simulation' with type 'ros.ament_cmake' and name 'pb_rm_simulation'
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.274s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 370 installed packages in /opt/ros/humble
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'costmap_converter_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/costmap_converter_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/costmap_converter_msgs', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rm_navigation/costmap_converter/costmap_converter_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'fake_vel_transform' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'fake_vel_transform' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'fake_vel_transform' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'fake_vel_transform' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'fake_vel_transform' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'fake_vel_transform' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'fake_vel_transform' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'fake_vel_transform' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'fake_vel_transform' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'fake_vel_transform' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/fake_vel_transform', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/fake_vel_transform', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rm_navigation/fake_vel_transform', 'symlink_install': True, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'imu_complementary_filter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/imu_complementary_filter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/imu_complementary_filter', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rm_perception/imu_complementary_filter', 'symlink_install': True, 'test_result_base': None}
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'linefit_ground_segmentation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/linefit_ground_segmentation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/linefit_ground_segmentation', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation', 'symlink_install': True, 'test_result_base': None}
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rm_driver/livox_ros_driver2', 'symlink_install': True, 'test_result_base': None}
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'pb_rm_simulation' build argument 'cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'pb_rm_simulation' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'pb_rm_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'pb_rm_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'pb_rm_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'pb_rm_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'pb_rm_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'pb_rm_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'pb_rm_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'pb_rm_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/pb_rm_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/pb_rm_simulation', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rm_simulation/pb_rm_simulation', 'symlink_install': True, 'test_result_base': None}
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/pointcloud_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/pointcloud_to_laserscan', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rm_perception/pointcloud_to_laserscan', 'symlink_install': True, 'test_result_base': None}
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rc_decision' build argument 'cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rc_decision' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rc_decision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rc_decision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rc_decision' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rc_decision' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rc_decision' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rc_decision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rc_decision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'rc_decision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/rc_decision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/rc_decision', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rc_decision', 'symlink_install': True, 'test_result_base': None}
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rc_vision' build argument 'cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rc_vision' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rc_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rc_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rc_vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rc_vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rc_vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rc_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rc_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'rc_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/rc_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/rc_vision', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rc_vision', 'symlink_install': True, 'test_result_base': None}
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rm_nav_bringup' build argument 'cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rm_nav_bringup' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rm_nav_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rm_nav_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rm_nav_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rm_nav_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rm_nav_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rm_nav_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rm_nav_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.306s] DEBUG:colcon.colcon_core.verb:Building package 'rm_nav_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/rm_nav_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/rm_nav_bringup', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rm_nav_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rm_navigation' build argument 'cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rm_navigation' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rm_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rm_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rm_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rm_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rm_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rm_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'rm_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.306s] DEBUG:colcon.colcon_core.verb:Building package 'rm_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/rm_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/rm_navigation', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rm_navigation/rm_navigation', 'symlink_install': True, 'test_result_base': None}
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.306s] DEBUG:colcon.colcon_core.verb:Building package 'serial_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/serial_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/serial_driver', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rm_driver/serial_driver', 'symlink_install': True, 'test_result_base': None}
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'costmap_converter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/costmap_converter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/costmap_converter', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rm_navigation/costmap_converter/costmap_converter', 'symlink_install': True, 'test_result_base': None}
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'fast_lio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/fast_lio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/fast_lio', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rm_localization/FAST_LIO', 'symlink_install': True, 'test_result_base': None}
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'icp_registration' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'icp_registration' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'icp_registration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'icp_registration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'icp_registration' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'icp_registration' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'icp_registration' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'icp_registration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'icp_registration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'icp_registration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/icp_registration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/icp_registration', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rm_localization/icp_registration', 'symlink_install': True, 'test_result_base': None}
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'linefit_ground_segmentation_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/linefit_ground_segmentation_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/linefit_ground_segmentation_ros', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros', 'symlink_install': True, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'point_lio' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'point_lio' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'point_lio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'point_lio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'point_lio' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'point_lio' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'point_lio' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'point_lio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'point_lio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'point_lio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/point_lio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/point_lio', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rm_localization/point_lio', 'symlink_install': True, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'ros2_livox_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_livox_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/ros2_livox_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/ros2_livox_simulation', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rm_simulation/livox_laser_simulation_RO2', 'symlink_install': True, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'teb_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/teb_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/teb_msgs', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rm_navigation/teb_local_planner/teb_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'cmake_target' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.309s] DEBUG:colcon.colcon_core.verb:Building package 'teb_local_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robofish/Robocon2024_R2/build/teb_local_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robofish/Robocon2024_R2/install/teb_local_planner', 'merge_install': False, 'path': '/home/robofish/Robocon2024_R2/src/rm_navigation/teb_local_planner/teb_local_planner', 'symlink_install': True, 'test_result_base': None}
+[0.309s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.310s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robofish/Robocon2024_R2/src/rm_driver/livox_ros_driver2' with build type 'ament_cmake'
+[0.310s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robofish/Robocon2024_R2/src/rm_driver/livox_ros_driver2'
+[0.311s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.313s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robofish/Robocon2024_R2/src/rm_navigation/costmap_converter/costmap_converter_msgs' with build type 'ament_cmake'
+[0.313s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robofish/Robocon2024_R2/src/rm_navigation/costmap_converter/costmap_converter_msgs'
+[0.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.316s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robofish/Robocon2024_R2/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation' with build type 'ament_cmake'
+[0.316s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robofish/Robocon2024_R2/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation'
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.318s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robofish/Robocon2024_R2/src/rm_navigation/fake_vel_transform' with build type 'ament_cmake'
+[0.318s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robofish/Robocon2024_R2/src/rm_navigation/fake_vel_transform'
+[0.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.321s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robofish/Robocon2024_R2/src/rm_perception/imu_complementary_filter' with build type 'ament_cmake'
+[0.321s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robofish/Robocon2024_R2/src/rm_perception/imu_complementary_filter'
+[0.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.323s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robofish/Robocon2024_R2/src/rm_simulation/pb_rm_simulation' with build type 'ament_cmake'
+[0.323s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robofish/Robocon2024_R2/src/rm_simulation/pb_rm_simulation'
+[0.323s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.323s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.327s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robofish/Robocon2024_R2/src/rm_perception/pointcloud_to_laserscan' with build type 'ament_cmake'
+[0.327s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robofish/Robocon2024_R2/src/rm_perception/pointcloud_to_laserscan'
+[0.327s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.328s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.332s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robofish/Robocon2024_R2/src/rc_decision' with build type 'ament_cmake'
+[0.332s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robofish/Robocon2024_R2/src/rc_decision'
+[0.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_driver/livox_ros_driver2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/livox_ros_driver2
+[0.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_navigation/costmap_converter/costmap_converter_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/costmap_converter_msgs
+[0.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/linefit_ground_segmentation
+[0.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/fake_vel_transform': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_navigation/fake_vel_transform -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/fake_vel_transform
+[0.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/imu_complementary_filter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_perception/imu_complementary_filter -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/imu_complementary_filter
+[0.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/pb_rm_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_simulation/pb_rm_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/pb_rm_simulation
+[0.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_perception/pointcloud_to_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/pointcloud_to_laserscan
+[0.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/rc_decision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rc_decision -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/rc_decision
+[1.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robofish/Robocon2024_R2/build/pb_rm_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_simulation/pb_rm_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/pb_rm_simulation
+[1.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/pb_rm_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robofish/Robocon2024_R2/build/pb_rm_simulation -- -j8 -l8
+[3.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robofish/Robocon2024_R2/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_navigation/costmap_converter/costmap_converter_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/costmap_converter_msgs
+[3.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robofish/Robocon2024_R2/build/costmap_converter_msgs -- -j8 -l8
+[3.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robofish/Robocon2024_R2/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_perception/imu_complementary_filter -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/imu_complementary_filter
+[3.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/imu_complementary_filter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robofish/Robocon2024_R2/build/imu_complementary_filter -- -j8 -l8
+[3.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robofish/Robocon2024_R2/build/pb_rm_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robofish/Robocon2024_R2/build/pb_rm_simulation -- -j8 -l8
+[3.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robofish/Robocon2024_R2/build/fake_vel_transform' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_navigation/fake_vel_transform -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/fake_vel_transform
+[3.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/fake_vel_transform': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robofish/Robocon2024_R2/build/fake_vel_transform -- -j8 -l8
+[3.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/pb_rm_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robofish/Robocon2024_R2/build/pb_rm_simulation
+[3.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robofish/Robocon2024_R2/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_perception/pointcloud_to_laserscan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/pointcloud_to_laserscan
+[3.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robofish/Robocon2024_R2/build/pointcloud_to_laserscan -- -j8 -l8
+[3.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robofish/Robocon2024_R2/build/rc_decision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rc_decision -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/rc_decision
+[3.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/rc_decision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robofish/Robocon2024_R2/build/rc_decision -- -j8 -l8
+[7.409s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pb_rm_simulation)
+[7.411s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/pb_rm_simulation' for CMake module files
+[7.412s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/pb_rm_simulation' for CMake config files
+[7.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb_rm_simulation', 'cmake_prefix_path')
+[7.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/hook/cmake_prefix_path.ps1'
+[7.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/hook/cmake_prefix_path.dsv'
+[7.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/hook/cmake_prefix_path.sh'
+[7.431s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/bin'
+[7.431s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/lib/pkgconfig/pb_rm_simulation.pc'
+[7.431s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/lib/python3.10/site-packages'
+[7.431s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/bin'
+[7.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/package.ps1'
+[7.432s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/package.dsv'
+[7.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/package.sh'
+[7.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/package.bash'
+[7.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robofish/Robocon2024_R2/build/pb_rm_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robofish/Robocon2024_R2/build/pb_rm_simulation
+[7.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/package.zsh'
+[7.435s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/colcon-core/packages/pb_rm_simulation)
+[7.832s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pb_rm_simulation)
+[7.832s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/pb_rm_simulation' for CMake module files
+[7.833s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/pb_rm_simulation' for CMake config files
+[7.834s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb_rm_simulation', 'cmake_prefix_path')
+[7.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/hook/cmake_prefix_path.ps1'
+[7.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/hook/cmake_prefix_path.dsv'
+[7.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/hook/cmake_prefix_path.sh'
+[7.836s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/bin'
+[7.836s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/lib/pkgconfig/pb_rm_simulation.pc'
+[7.836s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/lib/python3.10/site-packages'
+[7.836s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/bin'
+[7.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/package.ps1'
+[7.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/package.dsv'
+[7.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/package.sh'
+[7.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/package.bash'
+[7.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/pb_rm_simulation/package.zsh'
+[7.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robofish/Robocon2024_R2/install/pb_rm_simulation/share/colcon-core/packages/pb_rm_simulation)
+[7.840s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robofish/Robocon2024_R2/src/rc_vision' with build type 'ament_python'
+[7.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_vision', 'ament_prefix_path')
+[7.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofish/Robocon2024_R2/install/rc_vision/share/rc_vision/hook/ament_prefix_path.ps1'
+[7.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robofish/Robocon2024_R2/install/rc_vision/share/rc_vision/hook/ament_prefix_path.dsv'
+[7.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofish/Robocon2024_R2/install/rc_vision/share/rc_vision/hook/ament_prefix_path.sh'
+[7.842s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.842s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.926s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robofish/Robocon2024_R2/src/rc_vision'
+[8.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.927s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/rc_vision': PYTHONPATH=/home/robofish/Robocon2024_R2/build/rc_vision/prefix_override:/home/robofish/Robocon2024_R2/install/rc_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robofish/Robocon2024_R2/build/rc_vision/build --no-deps symlink_data
+[14.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robofish/Robocon2024_R2/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robofish/Robocon2024_R2/build/costmap_converter_msgs -- -j8 -l8
+[14.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robofish/Robocon2024_R2/build/costmap_converter_msgs
+[15.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robofish/Robocon2024_R2/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/linefit_ground_segmentation
+[15.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robofish/Robocon2024_R2/build/linefit_ground_segmentation -- -j8 -l8
+[15.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_vision', 'pythonpath_develop')
+[15.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofish/Robocon2024_R2/build/rc_vision/share/rc_vision/hook/pythonpath_develop.ps1'
+[15.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robofish/Robocon2024_R2/build/rc_vision/share/rc_vision/hook/pythonpath_develop.dsv'
+[15.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofish/Robocon2024_R2/build/rc_vision/share/rc_vision/hook/pythonpath_develop.sh'
+[15.600s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/rc_vision' for CMake module files
+[15.600s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/rc_vision' for CMake config files
+[15.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robofish/Robocon2024_R2/build/rc_vision' returned '0': PYTHONPATH=/home/robofish/Robocon2024_R2/build/rc_vision/prefix_override:/home/robofish/Robocon2024_R2/install/rc_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robofish/Robocon2024_R2/build/rc_vision/build --no-deps symlink_data
+[15.601s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/rc_vision/lib'
+[15.601s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/rc_vision/bin'
+[15.601s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/rc_vision/lib/pkgconfig/rc_vision.pc'
+[15.602s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/rc_vision/lib/python3.10/site-packages'
+[15.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_vision', 'pythonpath')
+[15.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofish/Robocon2024_R2/install/rc_vision/share/rc_vision/hook/pythonpath.ps1'
+[15.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robofish/Robocon2024_R2/install/rc_vision/share/rc_vision/hook/pythonpath.dsv'
+[15.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robofish/Robocon2024_R2/install/rc_vision/share/rc_vision/hook/pythonpath.sh'
+[15.603s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/rc_vision/bin'
+[15.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rc_vision)
+[15.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofish/Robocon2024_R2/install/rc_vision/share/rc_vision/package.ps1'
+[15.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robofish/Robocon2024_R2/install/rc_vision/share/rc_vision/package.dsv'
+[15.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofish/Robocon2024_R2/install/rc_vision/share/rc_vision/package.sh'
+[15.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofish/Robocon2024_R2/install/rc_vision/share/rc_vision/package.bash'
+[15.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofish/Robocon2024_R2/install/rc_vision/share/rc_vision/package.zsh'
+[15.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robofish/Robocon2024_R2/install/rc_vision/share/colcon-core/packages/rc_vision)
+[15.607s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robofish/Robocon2024_R2/src/rm_nav_bringup' with build type 'ament_cmake'
+[15.607s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robofish/Robocon2024_R2/src/rm_nav_bringup'
+[15.607s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.607s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robofish/Robocon2024_R2/build/rm_nav_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_nav_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/rm_nav_bringup
+[15.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robofish/Robocon2024_R2/build/livox_ros_driver2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofish/Robocon2024_R2/src/rm_driver/livox_ros_driver2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofish/Robocon2024_R2/install/livox_ros_driver2
+[15.800s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[15.800s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/livox_ros_driver2' for CMake module files
+[15.800s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/livox_ros_driver2' for CMake config files
+[15.801s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/livox_ros_driver2/bin'
+[15.801s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[15.801s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/livox_ros_driver2/lib/python3.10/site-packages'
+[15.801s] Level 1:colcon.colcon_core.environment:checking '/home/robofish/Robocon2024_R2/install/livox_ros_driver2/bin'
+[15.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofish/Robocon2024_R2/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[15.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robofish/Robocon2024_R2/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[15.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofish/Robocon2024_R2/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[15.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofish/Robocon2024_R2/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[15.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/robofish/Robocon2024_R2/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[15.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robofish/Robocon2024_R2/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[93.770s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[93.771s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[93.771s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[93.771s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[93.777s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[93.777s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[93.777s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[93.797s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[93.797s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robofish/Robocon2024_R2/install/local_setup.ps1'
+[93.798s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robofish/Robocon2024_R2/install/_local_setup_util_ps1.py'
+[93.799s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robofish/Robocon2024_R2/install/setup.ps1'
+[93.800s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robofish/Robocon2024_R2/install/local_setup.sh'
+[93.800s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robofish/Robocon2024_R2/install/_local_setup_util_sh.py'
+[93.800s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robofish/Robocon2024_R2/install/setup.sh'
+[93.801s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robofish/Robocon2024_R2/install/local_setup.bash'
+[93.801s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robofish/Robocon2024_R2/install/setup.bash'
+[93.802s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robofish/Robocon2024_R2/install/local_setup.zsh'
+[93.802s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robofish/Robocon2024_R2/install/setup.zsh'
